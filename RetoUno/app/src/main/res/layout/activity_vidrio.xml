@@ -1,0 +1,116 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vidrio">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/metal_pantalla"
+        android:contentDescription="Pantalla reciclaje metales"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="145dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="8dp"
+            android:ems="3"
+            android:inputType="text"
+            android:text="# Latas" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="145dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="10dp"
+            android:ems="3"
+            android:inputType="text"
+            android:text="# Tapas" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="118dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="255dp"
+            android:ems="3"
+            android:inputType="text"
+            android:text=" # Conservas" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="272dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="# Spray" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="199dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                app:cornerRadius="@dimen/cardview_default_radius"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="16dp"
+                android:textColor="#000000"
+                android:paddingEnd="16dp"
+                android:background="@color/verde"
+                android:text="Grabar" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                app:cornerRadius="@dimen/cardview_default_radius"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="16dp"
+                android:textColor="#000000"
+                android:paddingEnd="16dp"
+                android:background="@color/red"
+                android:text="Atras" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

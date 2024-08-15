@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">RetoUno</string>
+
+    <string-array name="componentes_array">
+        <item>Integrados</item>
+        <item>Condensadores</item>
+        <item>Bobinas</item>
+    </string-array>
+
+    <string-array name="tipo_pila_array">
+        <item>Alcalina</item>
+        <item>Acido_plomo</item>
+        <item>Niquel</item>
+        <item>Li_ION</item>
+        <item>LiPo</item>
+    </string-array>
 </resources>

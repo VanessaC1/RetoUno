@@ -13,6 +13,21 @@
         android:theme="@style/Theme.RetoUno"
         tools:targetApi="31">
         <activity
+            android:name=".Estadisticas"
+            android:exported="false" />
+        <activity
+            android:name=".Paper"
+            android:exported="false" />
+        <activity
+            android:name=".Vidrio"
+            android:exported="false" />
+        <activity
+            android:name=".electriwaste"
+            android:exported="false" />
+        <activity
+            android:name=".glass"
+            android:exported="false" />
+        <activity
             android:name=".Categorias"
             android:exported="false" />
         <activity

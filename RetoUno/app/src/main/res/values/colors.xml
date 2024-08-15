@@ -3,7 +3,16 @@
     <color name="green">#4CAF50</color>
     <color name="text_dark">#000000</color>
     <color name="hint_text">#4D4D4D</color>
-    <color name="black">#000000</color>
     <color name="green_dark">#388E3C</color>
     <color name="text_color_dark">#212121</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="verde">#4CAF50</color>
+    <color name="red">#FF0000</color>
+
+    <string-array name="colors_array">
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Rojo</item>
+    </string-array>
 </resources>
