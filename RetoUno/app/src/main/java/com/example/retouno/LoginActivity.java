@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                 String email = ediTextEmail.getText().toString();
                 String password = ediTextPassword.getText().toString();
                 if(userManager.LoginUser(email,password)) {
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, Principal.class);
                     startActivity(intent);
                     finish();
                 } else {
